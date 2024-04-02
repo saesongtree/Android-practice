@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 이미지 뷰 수정: 화면 왼쪽 상단 끝에 맞춤 -->
+    <ImageView
+        android:id="@+id/arrowIcon"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="0dp"
+        android:paddingHorizontal="10dp"
+        android:paddingRight="40dp"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 텍스트 뷰 수정: 화면 중앙 상단에 배치 -->
+
+    <!-- 첫 번째 카드형 텍스트 뷰 -->
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/questionTextView"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arrowIcon" />
+
+    <TextView
+        android:id="@+id/layout_1"
+        android:layout_width="380dp"
+    android:layout_height="230dp"
+    android:background="@drawable/rectangle"
+    android:gravity="center_horizontal"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/questionTextView"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginEnd="16dp" />
+
+    <!-- 첫 번째 버튼 -->
+
+
+    <!-- 두 번째 카드형 텍스트 뷰 -->
+    <Button
+        android:id="@+id/simplecheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="@string/button1"
+        app:layout_constraintEnd_toEndOf="@id/layout_1"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@id/layout_1"
+        app:layout_constraintTop_toBottomOf="@id/layout_1" />
+
+    <TextView
+        android:id="@+id/layout_2"
+        android:layout_width="380dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rectangle"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionTextView" />
+
+    <!-- 두 번째 카드형 텍스트 뷰 -->
+    <Button
+        android:id="@+id/hardcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/rectangle"
+        android:text="@string/button2"
+        app:layout_constraintEnd_toEndOf="@id/layout_2"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@id/layout_2"
+        app:layout_constraintTop_toBottomOf="@id/layout_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
