@@ -1,6 +1,0 @@
-<!-- res/drawable/rounded_bg.xml -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#D3D3D3"/> <!-- 이 부분에 원하는 색상 코드를 넣어주세요 -->
-    <corners android:radius="20dp"/> <!-- 둥근 모서리의 반지름을 설정합니다 -->
-</shape>
-
