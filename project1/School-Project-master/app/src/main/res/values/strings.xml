@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="title_text">치매 극복! 함께 해요</string>
+    <string name="button_view_results">검사 결과 확인</string>
+    <string name="button_recalculate">다시 검사하기</string>
+    <string name="message_bubble_one">1일 수면 그래프</string>
+    <string name="message_bubble_two">1일 이동 그래프</string>
+    <string name="message_bubble_three">인지 정확도 그래프</string>
+    <string name="questionTextView">어떤 검사를 원하시나요?</string>
+    <string name="button2">정밀 검사 하기</string>
+    <string name="button1">간단 검사 하기</string>
+    <string name="wherecountry">지금 우리가 있는 이 곳은 어느 나라입니까?</string>
+    <string name="editText">내용을 입력하세요</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
